@@ -1,11 +1,16 @@
 .nav-bar {
   position: fixed;
   height: 100%;
-  width: 120px;
-  background-color: #14213d;
+  width: 10.4%;
+  border-right: solid 2px white;
   top: 0;
   z-index: 3;
   min-height: 500px;
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: 'Open Sans' 'sans-serif';
+  font-size: 16px;
+  color: #394358;
 }
 
 .logo {

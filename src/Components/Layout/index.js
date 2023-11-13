@@ -6,7 +6,6 @@ import Home from '../Home'
 const Layout = () => {
   return (
     <div className="app">
-      <Home />
       <Sidebar />
 
       <div className="page">

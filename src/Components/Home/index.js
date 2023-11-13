@@ -1,12 +1,19 @@
+import React from 'react'
+import myPhoto from '../Assets/DSC_5587.jpg'
+
 const Home = () => {
   return (
     <div className="container home-page">
       <div className="text">
-        <h1>
-          Hi
+        <h1>Aleksander Kotarski</h1>
+        <h2>
+          Design. Code.
           <br />
-          Jestem
-        </h1>
+          Harmony.
+        </h2>
+        <div className="personal-photo">
+          <myPhoto />
+        </div>
       </div>
     </div>
   )

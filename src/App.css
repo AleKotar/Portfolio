@@ -1,10 +1,12 @@
 @import 'animate.css';
 
 @font-face {
-  font-family: 'Helvetica Neue';
+  font-family: 'Raleway';
+  src: url('./Components/Assets/Raleway-Regular.ttf') format('ttf');
 }
 @font-face {
-  font-family: 'nie wiem jeszcze';
+  font-family: 'Open Sans';
+  src: url('./Components/Assets/OpenSans-Regular.ttf') format('ttf');
 }
 
 input,

@@ -3,3 +3,6 @@
   margin-left: 200px;
   color: black;
 }
+.home-page {
+  z-index: 1;
+}

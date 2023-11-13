@@ -1,0 +1,36 @@
+.nav-bar {
+  position: fixed;
+  height: 100%;
+  width: 120px;
+  background-color: #14213d;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+}
+
+.logo {
+  max-width: 60%;
+  display: flex;
+  margin: 20% 0 20% 20%;
+}
+
+nav {
+  text-align: center;
+  height: 160px;
+  margin-top: 80px;
+  width: 100%;
+}
+nav h5 {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.nav-bar nav svg {
+  /* Your shared styles for all icons */
+  width: 24px;
+  height: 24px;
+  fill: #ffffff; /* Example color */
+}
+a.active {
+  color: aqua;
+}

@@ -14,18 +14,17 @@
 }
 
 .nav-link {
-  text-decoration: none; /* Remove underline */
-  color: #eaeceb; /* Set your desired text color */
+  text-decoration: none;
+  color: #eaeceb;
 }
 
-/* Apply the nav-link class to NavLink components */
 .nav-bar nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   text-decoration: none;
-  color: #eaeceb; /* Set your desired text color */
+  color: #eaeceb;
 }
 
 .nav-bar nav a.active {

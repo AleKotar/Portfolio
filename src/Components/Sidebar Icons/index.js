@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css' // Import your styles here
+import './index.css'
 
 const SidebarIcon = ({ src, text }) => {
   return (

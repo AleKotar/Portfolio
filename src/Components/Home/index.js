@@ -5,12 +5,17 @@ const Home = () => {
   return (
     <div className="container home-page">
       <div className="text">
-        <h1>Aleksander Kotarski</h1>
         <h2>
           Design. Code.
           <br />
-          Harmony.
+          Combine.
         </h2>
+        <div className="tech-stack">
+          <h3>
+            JavaScript HTML5 CSS3 React Redux Node.js TypeScript Firebase REST
+            API JSON Wordpress UI/UX Adobe 3D
+          </h3>
+        </div>
         <div className="personal-photo">
           <myPhoto />
         </div>

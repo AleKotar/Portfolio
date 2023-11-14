@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  top: 0;
+  height: 14.8%;
+  width: 100%;
+  border-bottom: 2px solid white;
+  background-color: #394358;
+  padding: 0 10.4%;
+  box-sizing: border-box;
+}
+.header-text h1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: #eaeceb;
+}

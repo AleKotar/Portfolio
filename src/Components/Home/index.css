@@ -1,8 +1,4 @@
-.text {
-  position: absolute;
-  margin-left: 200px;
-  color: black;
-}
-.home-page {
-  z-index: 1;
+.container .home-page {
+  margin: 14.8% 10.4% 10.4% 10.4%;
+  display: flex;
 }

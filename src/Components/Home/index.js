@@ -1,5 +1,6 @@
 import React from 'react'
-import myPhoto from '../Assets/DSC_5587.jpg'
+import myPhoto from '../Assets/myPhoto.png'
+import './index.css'
 
 const Home = () => {
   return (
@@ -12,13 +13,26 @@ const Home = () => {
         </h2>
         <div className="tech-stack">
           <h3>
-            JavaScript HTML5 CSS3 React Redux Node.js TypeScript Firebase REST
-            API JSON Wordpress UI/UX Adobe 3D
+            <span className="tech-word">JavaScript</span>
+            <span className="tech-word">HTML5</span>
+            <span className="tech-word">CSS3</span>
+            <span className="tech-word">React</span>
+            <span className="tech-word">Redux</span>
+            <span className="tech-word">Node.js</span>
+            <span className="tech-word">TypeScript</span>
+            <span className="tech-word">Firebase</span>
+            <span className="tech-word">REST</span>
+            <span className="tech-word">API</span>
+            <span className="tech-word">JSON</span>
+            <span className="tech-word">Wordpress</span>
+            <span className="tech-word">UI/UX</span>
+            <span className="tech-word">Adobe</span>
+            <span className="tech-word">3D</span>
           </h3>
         </div>
-        <div className="personal-photo">
-          <myPhoto />
-        </div>
+      </div>
+      <div className="personal-photo">
+        <img src={myPhoto} alt="My Photo" className="img-photo" />
       </div>
     </div>
   )

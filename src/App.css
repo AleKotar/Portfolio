@@ -8,6 +8,10 @@
   font-family: 'Open Sans';
   src: url('./Components/Assets/OpenSans-Regular.ttf') format('ttf');
 }
+@font-face {
+  font-family: 'Raleway light';
+  src: url('./Components/Assets/Raleway-Light.ttf') format('ttf');
+}
 
 input,
 textarea {

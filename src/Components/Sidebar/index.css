@@ -8,25 +8,47 @@
   min-height: 500px;
   box-sizing: border-box;
   padding: 20px;
-  font-family: 'Open Sans' 'sans-serif';
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #394358;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: #eaeceb;
+.nav-bar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
 }
 
 .nav-bar nav a {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   text-decoration: none;
   color: #eaeceb;
+  top: 20%;
+  margin-bottom: 50px;
 }
 
 .nav-bar nav a.active {
   color: #aeb9cd;
+}
+
+.nav-link {
+  width: 40px;
+  height: 40px;
+  fill: #eaeceb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #eaeceb;
+}
+
+.nav-link svg {
+  width: 80px;
+  height: 80px;
 }

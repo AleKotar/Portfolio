@@ -1,0 +1,36 @@
+.accordion {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10.4%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #555;
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding-left: 10.4%;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ddd;
+}

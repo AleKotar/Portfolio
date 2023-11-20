@@ -5,8 +5,8 @@ import Accordion from '../Accordion'
 
 const Home = () => {
   return (
-    <div>
-      <div className="container home-page">
+    <div className="home-page">
+      <div className="container">
         <div className="text">
           <h2>
             Design. Code.
@@ -39,9 +39,15 @@ const Home = () => {
       </div>
       <div className="bottom-text">
         <span>Recent work:</span>
+        <span className="bottom-text-small">
+          (links to github and created websites)
+        </span>
       </div>
-      <div className="no-margin">
+      <div className="accordion">
         <Accordion text="blabla" title="tytul" />
+        <Accordion text="xd" title="sdada" />
+        <Accordion text="blabla" title="tytul" />
+        <Accordion text="xd" title="sdada" />
       </div>
     </div>
   )

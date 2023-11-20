@@ -1,6 +1,10 @@
-.container {
+.home-page {
+  background-color: #394358;
+  padding-top: 6%;
   padding-left: 10.4%;
   padding-right: 12%;
+}
+.container {
   display: flex;
   justify-items: flex-start;
   align-items: flex-start;
@@ -19,7 +23,7 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 12px;
-  color: azure;
+  color: #eaeceb;
   font-family: 'Open Sans' 'sans-serif';
   font-weight: 400;
 }
@@ -35,10 +39,19 @@
 }
 
 .bottom-text {
-  padding-left: 10.4%;
-
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
   font-size: 40px;
   font-family: 'Raleway light', sans-serif;
   color: #eaeceb;
+}
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom-text-small {
+  font-size: 12px;
 }

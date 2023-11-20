@@ -20,7 +20,7 @@ li {
   display: block;
   position: relative;
   opacity: 0;
-  animation: fadeInUp 2s 2s;
+  animation: fadeInUp 0.3s 0.3s;
   animation-fill-mode: forwards;
 }
 

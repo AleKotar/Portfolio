@@ -27,6 +27,7 @@ const Sidebar = () => {
         <NavLink exact to="/Github" className="nav-github nav-link">
           <Github className="nav-icon" alt="Github icon" />
           <span>GITHUB</span>
+          <span className="nav-api-text">(API)</span>
         </NavLink>
         <NavLink exact to="/Linkedin" className="nav-linkedin nav-link">
           <Linkedin className="nav-icon" alt="Linkedin icon" />

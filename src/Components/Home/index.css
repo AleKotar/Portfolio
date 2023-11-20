@@ -55,3 +55,17 @@
 .bottom-text-small {
   font-size: 12px;
 }
+
+.contact-button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+  color: #394358;
+  border: 2px solid #eaeceb;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+.bottom-text-small a {
+  color: #aeb9cd;
+}

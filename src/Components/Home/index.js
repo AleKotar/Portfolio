@@ -32,6 +32,7 @@ const Home = () => {
               <span className="tech-word">3D</span>
             </h3>
           </div>
+          <button className="contact-button">CONTACT ME</button>
         </div>
         <div className="personal-photo">
           <img src={myPhoto} alt="My Photo" className="img-photo" />
@@ -48,6 +49,18 @@ const Home = () => {
         <Accordion text="xd" title="sdada" />
         <Accordion text="blabla" title="tytul" />
         <Accordion text="xd" title="sdada" />
+      </div>
+      <div className="bottom-text">
+        <span>Contact:</span>
+        <span className="bottom-text-small">
+          Please ontact me directly through my email:{' '}
+          <strong>
+            {' '}
+            <a href="mailto:olek.kotarski@gmail.com">olek.kotarski@gmail.com</a>
+          </strong>{' '}
+          or through contact form below:
+        </span>
+        <span>Coming soon, I need one free evening :)</span>
       </div>
     </div>
   )

@@ -1,40 +1,37 @@
 import './index.css'
-import { NavLink, Link } from 'react-router-dom'
-import { ReactComponent as Logo } from '../Assets/Logo.svg'
+import { NavLink } from 'react-router-dom'
 import { ReactComponent as CV } from '../Assets/CV.svg'
 import { ReactComponent as Contact } from '../Assets/Contact.svg'
 import { ReactComponent as Linkedin } from '../Assets/LinkedIN.svg'
 import { ReactComponent as Home } from '../Assets/Home.svg'
-import { ReactComponent as Github } from '../Assets/github-mark-white.svg'
+import { ReactComponent as Github } from '../Assets/Github.svg'
+import Icon from '../Icon'
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link>
-        <div className="logo">
-          <Logo alt="Logo" />
-        </div>
-      </Link>
       <nav>
-        <NavLink exact to="/" className="nav-home">
-          <Home alt="home icon" />
-          <h5>Home</h5>
+        <NavLink exact to="/" className="nav-home nav-link">
+          <Home className="nav-icon" alt="home icon" />
+          <span>HOME</span>
         </NavLink>
-        <NavLink exact to="/Resume" className="nav-cv">
-          <CV alt="CV icon" />
-          <h5>Resume</h5>
+        <NavLink exact to="/Resume" className="nav-cv nav-link">
+          <CV className="nav-icon" alt="CV icon" />
+          <span>RESUME</span>
         </NavLink>
-        <NavLink exact to="/Contact" className="nav-contact">
-          <Contact alt="Contact icon" />
-          <h5>Contact</h5>
+        {/* <NavLink exact to="/Contact" className="nav-contact nav-link">
+          <Contact className="nav-icon" alt="Contact icon" />
+          <span>CONTACT</span>
+        </NavLink> */}
+
+        <NavLink exact to="/Github" className="nav-github nav-link">
+          <Github className="nav-icon" alt="Github icon" />
+          <span>GITHUB</span>
+          <span className="nav-api-text">(API)</span>
         </NavLink>
-        <NavLink exact to="/Linkedin" className="nav-linkedin">
-          <Linkedin alt="Linkedin icon" />
-          <h5>Linkedin</h5>
-        </NavLink>
-        <NavLink exact to="/Github" className="nav-github">
-          <Github alt="Github icon" />
-          <h5>Github</h5>
+        <NavLink exact to="/Linkedin" className="nav-linkedin nav-link">
+          <Linkedin className="nav-icon" alt="Linkedin icon" />
+          <span>LINKEDIN</span>
         </NavLink>
       </nav>
     </div>

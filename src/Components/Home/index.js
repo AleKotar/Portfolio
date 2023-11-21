@@ -2,6 +2,7 @@ import React from 'react'
 import myPhoto from '../Assets/myPhoto.png'
 import './index.css'
 import Accordion from '../Accordion'
+import projectData from '../library/projectData'
 
 const Home = () => {
   return (
@@ -45,10 +46,14 @@ const Home = () => {
         </span>
       </div>
       <div className="accordion">
-        <Accordion text="blabla" title="tytul" />
-        <Accordion text="xd" title="sdada" />
-        <Accordion text="blabla" title="tytul" />
-        <Accordion text="xd" title="sdada" />
+        {projectData.map((project) => (
+          <Accordion
+            key={project.id}
+            title={project.title}
+            img={project.img}
+            techWords={project.techWords}
+          />
+        ))}
       </div>
       <div className="bottom-text">
         <span>Contact:</span>

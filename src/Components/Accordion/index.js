@@ -1,17 +1,18 @@
 import './index.css'
 
-const Accordion = ({ title, text, img }) => {
+const Accordion = ({ title, img, techWords }) => {
   return (
     <div className="accordion-header">
       <div className="accordion-text">
         <h3>{title}</h3>
-        <span className="accordion-tech-word">JavaScript</span>
-        <span className="accordion-tech-word">HTML5</span>
-        <span className="accordion-tech-word">CSS3</span>
-        <span className="accordion-tech-word">React</span>
+        {techWords.map((techWord, index) => (
+          <span key={index} className="accordion-tech-word">
+            {techWord}
+          </span>
+        ))}
       </div>
       <div className="accordion-image">
-        <img src={img} alt="Header" />
+        <img src={img} alt="project visualization" />
       </div>
     </div>
   )

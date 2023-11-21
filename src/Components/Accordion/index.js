@@ -1,4 +1,3 @@
-// Accordion.js
 import './index.css'
 
 const Accordion = ({ title, img, techWords }) => {

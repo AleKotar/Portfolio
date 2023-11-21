@@ -35,7 +35,7 @@ const Home = () => {
           <button className="contact-button">CONTACT ME</button>
         </div>
         <div className="personal-photo">
-          <img src={myPhoto} alt="My Photo" className="img-photo" />
+          <img src={myPhoto} alt="Aleksanders face" className="img-photo" />
         </div>
       </div>
       <div className="bottom-text">

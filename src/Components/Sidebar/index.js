@@ -1,11 +1,9 @@
 import './index.css'
 import { NavLink } from 'react-router-dom'
 import { ReactComponent as CV } from '../Assets/CV.svg'
-import { ReactComponent as Contact } from '../Assets/Contact.svg'
 import { ReactComponent as Linkedin } from '../Assets/LinkedIN.svg'
 import { ReactComponent as Home } from '../Assets/Home.svg'
 import { ReactComponent as Github } from '../Assets/Github.svg'
-import Icon from '../Icon'
 
 const Sidebar = () => {
   return (

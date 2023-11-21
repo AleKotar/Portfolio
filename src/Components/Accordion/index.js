@@ -1,10 +1,6 @@
-import { useState, useRef, useEffect } from 'react'
-import myPhoto from '../Assets/myPhoto.png'
-import kret from '../Assets/kret.png'
-
 import './index.css'
 
-const Accordion = ({ title, text, headerImg }) => {
+const Accordion = ({ title, text, img }) => {
   return (
     <div className="accordion-header">
       <div className="accordion-text">
@@ -15,7 +11,7 @@ const Accordion = ({ title, text, headerImg }) => {
         <span className="accordion-tech-word">React</span>
       </div>
       <div className="accordion-image">
-        <img src={kret} alt="Header" />
+        <img src={img} alt="Header" />
       </div>
     </div>
   )

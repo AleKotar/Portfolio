@@ -7,35 +7,36 @@ import projectData from '../library/projectData'
 const Home = () => {
   return (
     <div className="home-page">
-      <div className="container">
-        <div className="text">
-          <h2>
+      <div className="grid-container">
+        <div className="grid-title">
+          <span>
             Design. Code.
             <br />
             Create.
-          </h2>
-          <div className="tech-stack">
-            <h3>
-              <span className="tech-word">JavaScript</span>
-              <span className="tech-word">HTML5</span>
-              <span className="tech-word">CSS3</span>
-              <span className="tech-word">React</span>
-              <span className="tech-word">Redux</span>
-              <span className="tech-word">Node.js</span>
-              <span className="tech-word">TypeScript</span>
-              <span className="tech-word">Firebase</span>
-              <span className="tech-word">REST</span>
-              <span className="tech-word">API</span>
-              <span className="tech-word">JSON</span>
-              <span className="tech-word">Wordpress</span>
-              <span className="tech-word">UI/UX</span>
-              <span className="tech-word">Adobe</span>
-              <span className="tech-word">3D</span>
-            </h3>
-          </div>
+          </span>
+        </div>
+        <div className="grid-tech-stack">
+          <h3>
+            <span className="tech-word">JavaScript</span>
+            <span className="tech-word">HTML5</span>
+            <span className="tech-word">CSS3</span>
+            <span className="tech-word">React</span>
+            <span className="tech-word">Redux</span>
+            <span className="tech-word">Node.js</span>
+            <span className="tech-word">TypeScript</span>
+            <span className="tech-word">Firebase</span>
+            <span className="tech-word">REST</span>
+            <span className="tech-word">API</span>
+            <span className="tech-word">JSON</span>
+            <span className="tech-word">Wordpress</span>
+            <span className="tech-word">UI/UX</span>
+            <span className="tech-word">Adobe</span>
+            <span className="tech-word">3D</span>
+          </h3>
           <button className="contact-button">CONTACT ME</button>
         </div>
-        <div className="personal-photo">
+
+        <div className="grid-personal-photo">
           <img src={myPhoto} alt="Aleksanders face" className="img-photo" />
         </div>
       </div>

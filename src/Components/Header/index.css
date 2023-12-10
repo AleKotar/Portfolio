@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   top: 0;
-  height: 14.8%;
+  height: 8.8%;
   width: 100%;
   border-bottom: 2px solid #eaeceb;
 
@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 6;
 }
 .header-text h1 {
   font-family: 'Raleway light', sans-serif;

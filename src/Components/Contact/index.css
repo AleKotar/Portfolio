@@ -51,15 +51,22 @@ form label {
 }
 
 form input[type='submit'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 1em;
   cursor: pointer;
   background: #6ea6c9;
-  color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 16px;
   height: 2em;
   width: 8em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #eaeceb;
 }
+
 .sent {
   margin-bottom: 5em;
 }

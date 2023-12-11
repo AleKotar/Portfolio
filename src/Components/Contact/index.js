@@ -61,7 +61,7 @@ const Contact = () => {
         value={formValues.message}
         onChange={handleChange}
       />
-      <input type="submit" value="Send" />
+      <input type="submit" value="SEND" />
       <span className="sent">{submissionMessage}</span>
     </form>
   )

@@ -1,32 +1,65 @@
-.contact-page {
-  background-color: #394358;
-  padding-bottom: 21.5vw;
-}
-.contact-form {
-  width: 100%;
-  margin-top: 20px;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  margin-bottom: 8px;
-  overflow: hidden;
-  display: block;
-  position: relative;
-  opacity: 0;
-  animation: fadeInUp 0.3s 0.3s;
-  animation-fill-mode: forwards;
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: #eaeceb;
 }
 
-input[type='text'],
-input[type='email'] {
+form input {
+  margin-top: 0.2em;
   width: 100%;
-  border: 0;
-  background-color: #394358;
+  height: 1em;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #eaeceb;
+  background-color: #eaeceb64;
+  font-family: 'Open Sans', sans-serif;
+  color: #eaeceb;
+}
+
+form input:focus {
+  border: 2px solid #6ea6c9;
+}
+
+form textarea {
+  margin-top: 0.2em;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+
+  border: 2px solid #eaeceb;
+  background-color: #eaeceb64;
+  font-family: 'Open Sans', sans-serif;
+  color: #eaeceb;
+}
+
+form textarea:focus {
+  border: 2px solid #6ea6c9;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input[type='submit'] {
+  margin-top: 1em;
+  cursor: pointer;
+  background: #6ea6c9;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 2em;
+  width: 8em;
+}
+.sent {
+  margin-bottom: 5em;
 }

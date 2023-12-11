@@ -13,8 +13,6 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="github" element={<Github />} />
-
-          <Route path="contact" element={<Contact />} />
         </Route>
         <Route path="resume" element={<Resume />} />
       </Routes>

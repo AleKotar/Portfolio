@@ -4,8 +4,7 @@
   height: 8.8%;
   width: 100%;
   border-bottom: 2px solid #eaeceb;
-
-  background-color: #394358;
+  background-color: #161616;
   padding: 0 10.4%;
   box-sizing: border-box;
   display: flex;
@@ -16,4 +15,10 @@
 .header-text h1 {
   font-family: 'Raleway light', sans-serif;
   color: #eaeceb;
+  font-size: 1.5em;
+}
+.header-text h1 span {
+  font-family: 'Raleway light', sans-serif;
+  color: #eaeceb;
+  font-size: 0.7em;
 }

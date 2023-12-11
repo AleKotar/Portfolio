@@ -3,6 +3,7 @@ import myPhoto from '../Assets/myPhoto.png'
 import './index.css'
 import Accordion from '../Accordion'
 import projectData from '../library/projectData'
+import Contact from '../Contact/index.js'
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           <span>
             Design. Code.
             <br />
-            Create.
+            Develop.
           </span>
         </div>
         <div className="grid-tech-stack">
@@ -23,8 +24,7 @@ const Home = () => {
             <span className="tech-word">React</span>
             <span className="tech-word">Redux</span>
             <span className="tech-word">Node.js</span>
-            <span className="tech-word">TypeScript</span>
-            <span className="tech-word">Firebase</span>
+
             <span className="tech-word">REST</span>
             <span className="tech-word">API</span>
             <span className="tech-word">JSON</span>
@@ -34,6 +34,7 @@ const Home = () => {
             <span className="tech-word">3D</span>
           </h3>
           <button className="contact-button">CONTACT ME</button>
+          <button className="github-button">My Github</button>
         </div>
 
         <div className="grid-personal-photo">
@@ -56,17 +57,13 @@ const Home = () => {
           />
         ))}
       </div>
-      <div className="bottom-text">
-        <span>Contact:</span>
-        <span className="bottom-text-small">
-          Please ontact me directly through my email:{' '}
-          <strong>
-            {' '}
-            <a href="mailto:olek.kotarski@gmail.com">olek.kotarski@gmail.com</a>
-          </strong>{' '}
-          or through contact form below:
-        </span>
-        <span>Coming soon, I need one free evening :)</span>
+      <div className="contact">
+        <div className="bottom-text">
+          <span>Contact:</span>
+        </div>
+        <div>
+          <Contact />
+        </div>
       </div>
     </div>
   )

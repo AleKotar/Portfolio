@@ -1,5 +1,5 @@
 .home-page {
-  background-color: #394358;
+  background-color: #161616;
   padding-top: 6%;
   padding-left: 10.4%;
   padding-right: 12%;
@@ -51,7 +51,7 @@
 .bottom-text {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 2em;
   font-size: 2.5em;
   font-family: 'Raleway light', sans-serif;
   color: #eaeceb;
@@ -72,8 +72,21 @@
   font-size: 1em;
   font-weight: 600;
   margin-right: 10px;
-  color: #394358;
-  border: 2px solid #eaeceb;
+  color: #eaeceb;
+  background-color: #6ea6c9;
+  border: 2px solid #6ea6c9;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+.github-button {
+  margin-top: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  margin-right: 10px;
+  color: #6ea6c9;
+  background-color: transparent;
+  border: 2px solid #6ea6c9;
   border-radius: 20px;
   padding: 10px 10px;
 }

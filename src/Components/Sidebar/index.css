@@ -30,7 +30,7 @@
   text-align: center;
   text-decoration: none;
   color: #eaeceb;
-  top: 20%;
+  top: 8em;
   margin-bottom: 2.5em;
 }
 
@@ -40,7 +40,7 @@
 
 .nav-link {
   width: 2em;
-  height: 2em;
+  height: 5em;
   fill: #eaeceb;
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@
 
 .nav-icon {
   position: absolute;
-  top: 0;
+
   left: 0;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;

@@ -24,8 +24,7 @@ const Home = () => {
             <span className="tech-word">React</span>
             <span className="tech-word">Redux</span>
             <span className="tech-word">Node.js</span>
-            <span className="tech-word">TypeScript</span>
-            <span className="tech-word">Firebase</span>
+
             <span className="tech-word">REST</span>
             <span className="tech-word">API</span>
             <span className="tech-word">JSON</span>
@@ -35,7 +34,7 @@ const Home = () => {
             <span className="tech-word">3D</span>
           </h3>
           <button className="contact-button">CONTACT ME</button>
-          <button className="contact-button">My Github</button>
+          <button className="github-button">My Github</button>
         </div>
 
         <div className="grid-personal-photo">

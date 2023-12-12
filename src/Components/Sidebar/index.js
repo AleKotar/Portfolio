@@ -22,15 +22,26 @@ const Sidebar = () => {
           <span>CONTACT</span>
         </NavLink> */}
 
-        <NavLink exact to="/Github" className="nav-github nav-link">
+        <a
+          href="https://github.com/AleKotar"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-github nav-link"
+        >
           <Github className="nav-icon" alt="Github icon" />
           <span>GITHUB</span>
-          <span className="nav-api-text">(API)</span>
-        </NavLink>
-        <NavLink exact to="/Linkedin" className="nav-linkedin nav-link">
+        </a>
+        {/* <span className="nav-api-text">(API)</span> */}
+
+        <a
+          href="https://www.linkedin.com/in/aleksanderkotarski98/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-linkedin nav-link"
+        >
           <Linkedin className="nav-icon" alt="Linkedin icon" />
           <span>LINKEDIN</span>
-        </NavLink>
+        </a>
       </nav>
     </div>
   )

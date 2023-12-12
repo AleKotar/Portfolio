@@ -78,3 +78,9 @@ svg {
 .nav-api-text {
   font-size: 12px;
 }
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+}

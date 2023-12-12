@@ -138,4 +138,13 @@
     object-fit: cover;
     object-position: center center;
   }
+  .contact-button {
+    font-size: 0.7em;
+  }
+  .github-button {
+    font-size: 0.7em;
+  }
+  .bottom-text {
+    font-size: 1.25em;
+  }
 }

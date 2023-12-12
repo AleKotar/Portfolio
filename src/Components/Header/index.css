@@ -26,11 +26,11 @@
   .header-text h1 {
     font-family: 'Raleway light', sans-serif;
     color: #eaeceb;
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .header-text h1 span {
     font-family: 'Raleway light', sans-serif;
     color: #eaeceb;
-    font-size: 0.5em;
+    font-size: 0.85em;
   }
 }

@@ -70,3 +70,12 @@ form input[type='submit'] {
 .sent {
   margin-bottom: 5em;
 }
+
+@media (max-width: 900px) {
+  form {
+    width: 100%;
+  }
+  form input[type='submit'] {
+    font-size: 0.7em;
+  }
+}

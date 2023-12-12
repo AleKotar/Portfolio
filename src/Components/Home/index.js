@@ -6,6 +6,17 @@ import projectData from '../library/projectData'
 import Contact from '../Contact/index.js'
 
 const Home = () => {
+  const scrollToContact = () => {
+    const contactDiv = document.getElementById('contact')
+    if (contactDiv) {
+      contactDiv.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
+  const goToGithub = () => {
+    const githubUrl = 'https://github.com/AleKotar'
+    window.open(githubUrl, '_blank')
+  }
   return (
     <div className="home-page">
       <div className="grid-container">
@@ -34,8 +45,12 @@ const Home = () => {
             <span className="tech-word">Adobe</span>
             <span className="tech-word">3D</span>
           </h3>
-          <button className="contact-button">CONTACT ME</button>
-          <button className="github-button">My Github</button>
+          <button className="contact-button" onClick={scrollToContact}>
+            CONTACT ME
+          </button>
+          <button className="github-button" onClick={goToGithub}>
+            My Github
+          </button>
         </div>
 
         <div className="grid-personal-photo">
@@ -55,6 +70,8 @@ const Home = () => {
             title={project.title}
             img={project.img}
             techWords={project.techWords}
+            externalLink={project.externalLink}
+            description={project.description}
           />
         ))}
       </div>
@@ -62,7 +79,7 @@ const Home = () => {
         <div className="bottom-text">
           <span>Contact:</span>
         </div>
-        <div>
+        <div id="contact">
           <Contact />
         </div>
       </div>

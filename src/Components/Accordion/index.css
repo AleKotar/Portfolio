@@ -167,6 +167,10 @@
     padding: 0;
     align-items: flex-start;
     width: 100%;
+    transform: none;
+  }
+  .accordion-header:hover .accordion-image {
+    transform: none;
   }
   .accordion-header-expanded {
     display: grid;
@@ -190,5 +194,13 @@
     width: 100%;
     height: auto;
     align-items: flex-start;
+    transform: none;
+  }
+  .accordion-header-expanded {
+    &:hover {
+      .accordion-image {
+        transform: none;
+      }
+    }
   }
 }
